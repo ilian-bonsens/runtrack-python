@@ -4,4 +4,3 @@ cote3 = int(input("Entrez une hauteur pour le triangle :"))
 
 if cote1 == cote2 or cote1 == cote3 or cote3 == cote2:
     print("Ceci est un triangle isocèle")
-    if 
