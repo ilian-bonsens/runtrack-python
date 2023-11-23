@@ -1,7 +1,8 @@
+L = [1, 2, 3, 4, 5]
+
 def inverse():
-    L = [1, 2, 3, 4, 5]
     print(L)
-    L.reverse()
+    L[0], L[-1] = L[-1], L[0]
     return L
 
 print(inverse())
